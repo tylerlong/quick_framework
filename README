@@ -4,6 +4,14 @@ Quick Framework is a Python web framework which enables you to develop a website
 
 
 
+Get start quickly
+*****************
+Issue the following command: 
+    python quick.py
+Then you will be guided through the whole process
+
+
+
 License
 *******
 Quick Framework is released under BSD License.
