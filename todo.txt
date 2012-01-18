@@ -1,0 +1,23 @@
+1. generate manage.py, the single entry point for every project.
+    1. user can do everything from this entry point
+    2. user can customize this entry point
+    3. single entry point makes things simple
+    4. prompt hints for every action, so user doesn't have to memorize anything.
+
+2. auto generate fixtures
+
+3. auto generate models.py file. in the pydoc, gives examples of models and a link to more examples
+
+4. auto generate wsgi.py, then user can easily deploy the project to apache + mod_wsgi
+
+5. program structure refactoring, take wendaren as an example. refactor both this project and projects it generates.
+
+6. added support for non-web applications?
+
+7. generate an admin applicaiton just like django admin
+
+8. 我觉得不能把事情搞得太复杂. 也不要把目标定得过高. 如果能做到以下几点, 我认为就是成功了:
+    1. 生成良好的程序结构
+    2. 自动生成大多数程序都共有的代码
+    3. 能够以向导的方式帮助用户把程序写完
+    4. 能够适应大多数类型的项目
